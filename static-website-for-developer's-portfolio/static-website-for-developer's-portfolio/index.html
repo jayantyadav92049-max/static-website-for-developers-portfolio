@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jayant Kumar Yadav — Developer Portfolio</title>
+  <meta name="description" content="Jayant's developer portfolio — frontend, backend, projects and contact." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#hero" class="logo" aria-label="Rakshit home">Rakshit</a>
+        <span class="role">Full‑Stack Developer</span>
+      </div>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="hamburger" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="hero" class="hero container">
+      <div class="hero-left">
+        <h1>Hi, I'm <span class="accent">Rakshit</span></h1>
+        <p class="lead">I build accessible, responsive web apps and delightful user experiences.</p>
+        <p class="cta-row">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn outline" href="mailto:youremail@example.com">Contact Me</a>
+        </p>
+      </div>
+      <div class="hero-right" aria-hidden="true">
+        <img src="assets/avatar.jpg" alt="Rakshit portrait" class="avatar" />
+      </div>
+    </section>
+
+    <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <p class="muted">Technologies I use regularly</p>
+      <div class="skills-grid" role="list">
+        <div class="skill-card" role="listitem">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, React, Vue</p>
+        </div>
+        <div class="skill-card" role="listitem">
+          <h3>Backend</h3>
+          <p>Node.js, Express, REST APIs, MongoDB</p>
+        </div>
+        <div class="skill-card" role="listitem">
+          <h3>Tools</h3>
+          <p>Git, Docker, CI/CD, VS Code</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Projects</h2>
+      <p class="muted">Selected work — click to view repository or live demo</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="assets/project1.png" alt="Project 1 screenshot" />
+          <div class="project-body">
+            <h3>Project One</h3>
+            <p class="project-desc">A responsive SPA demonstrating modern JS patterns and accessibility.</p>
+            <p class="tech">React; Node.js; Netlify</p>
+            <p class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live</a>
+              <a href="#" target="_blank" rel="noopener">Repo</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-body">
+            <h3>Project Two</h3>
+            <p class="project-desc">Static site generator demo and performance optimizations.</p>
+            <p class="tech">HTML; CSS; JS</p>
+            <p class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live</a>
+              <a href="#" target="_blank" rel="noopener">Repo</a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <p>I’m a developer focused on building accessible, maintainable web apps. I enjoy learning new tools and improving performance and UX.</p>
+      <ul>
+        <li>3+ years building web applications</li>
+        <li>Open-source contributor</li>
+        <li>Mentor and code reviewer</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>Want to work together or ask a question? Send an email.</p>
+      <p><a class="btn primary" href="mailto:youremail@example.com">Email me</a></p>
+      <footer class="site-footer">
+        <p>&copy; <span id="2026"></span> Jayant — Built with HTML, CSS & JavaScript</p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
