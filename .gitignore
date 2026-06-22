@@ -1,0 +1,7 @@
+# Node artifacts (not used but safe)
+node_modules/
+# OS files
+.DS_Store
+Thumbs.db
+# VS Code
+.vscode/
